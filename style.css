@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #051D40;
+  }
+  
+
+  .navbar .logo img {
+    width: 100%; 
+  }
+  
+  .navbar .menu {
+    background-color: #051D40;
+    width: 100%; 
+    height: 100%; 
+   
+  }
+  
+  .navbar .menu ul {
+    display: flex;
+    gap: 2rem; 
+    margin-left: 1rem; 
+  }
+  
+
+  .navbar .menu ul li {
+    display: inline-block;
+    margin-top: 1rem; /* Use a relative unit (rem) for margin */
+    color: white;
+    font-size: 1.3rem; /* Use a relative unit (rem) for font size */
+    margin-left: rem;
+  }
+
+  .navbar .menu ul li:hover{
+    cursor: pointer;
+    color: gray;
+    transition: 0.4s;
+  }
+
+  .custom-icon {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    color: white; /* Set the color to white */
+  }
+  
+  .container {
+    width: 100%; /* Use 100% width to span the entire viewport */
+  }
+  
+  .input-group .container {
+    background-color: #051D40;
+    height: 10%; /* Use a percentage of the viewport height */
+  }
+  
+  .input-group .container input {
+    width: 50%; /* Use a percentage of the parent's width */
+    margin-top: 1rem; /* Use a relative unit (rem) for margin */
+  }
+  
+  .form-control {
+    display: inline-block;
+    margin-left: 7rem;
+  }
+  
+  .btn {
+    margin-left: 1rem; /* Use a relative unit (rem) for margin */
+    margin-bottom: 0.3rem; /* Use a relative unit (rem) for margin */
+  }
+
+ 
